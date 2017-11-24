@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143BB7DA1FC6603600B026D6 /* YRAlbumListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 143BB7D91FC6603600B026D6 /* YRAlbumListCell.m */; };
+		143BB7DD1FC66F4200B026D6 /* YRPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 143BB7DC1FC66F4200B026D6 /* YRPhotoListCell.m */; };
+		146909131FC598A4009DED4F /* YRPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146909121FC598A4009DED4F /* YRPhotoListViewController.m */; };
+		146909161FC59DF6009DED4F /* YRAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 146909151FC59DF6009DED4F /* YRAlbumVC.m */; };
+		1469091E1FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 146909181FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.m */; };
+		1469091F1FC59EF6009DED4F /* PHAssetCollection+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469091A1FC59EF6009DED4F /* PHAssetCollection+custom.m */; };
+		146909201FC59EF6009DED4F /* PHAsset+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469091C1FC59EF6009DED4F /* PHAsset+custom.m */; };
 		147210901FC5915B00104437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472108F1FC5915B00104437 /* main.m */; };
 		147210931FC5915B00104437 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147210921FC5915B00104437 /* AppDelegate.m */; };
 		147210961FC5915B00104437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147210951FC5915B00104437 /* ViewController.m */; };
 		147210991FC5915B00104437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147210971FC5915B00104437 /* Main.storyboard */; };
 		1472109B1FC5915B00104437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472109A1FC5915B00104437 /* Assets.xcassets */; };
 		1472109E1FC5915B00104437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1472109C1FC5915B00104437 /* LaunchScreen.storyboard */; };
+		147210A81FC5937C00104437 /* YRAlbumNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147210A71FC5937C00104437 /* YRAlbumNavigationController.m */; };
+		147210AB1FC593B100104437 /* YRAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147210AA1FC593B100104437 /* YRAlbumListViewController.m */; };
+		147210B31FC5964A00104437 /* UINavigationController+YRNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 147210B21FC5964A00104437 /* UINavigationController+YRNav.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143BB7D81FC6603600B026D6 /* YRAlbumListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRAlbumListCell.h; sourceTree = "<group>"; };
+		143BB7D91FC6603600B026D6 /* YRAlbumListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRAlbumListCell.m; sourceTree = "<group>"; };
+		143BB7DB1FC66F4200B026D6 /* YRPhotoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPhotoListCell.h; sourceTree = "<group>"; };
+		143BB7DC1FC66F4200B026D6 /* YRPhotoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPhotoListCell.m; sourceTree = "<group>"; };
+		146909111FC598A4009DED4F /* YRPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPhotoListViewController.h; sourceTree = "<group>"; };
+		146909121FC598A4009DED4F /* YRPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPhotoListViewController.m; sourceTree = "<group>"; };
+		146909141FC59DF6009DED4F /* YRAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRAlbumVC.h; sourceTree = "<group>"; };
+		146909151FC59DF6009DED4F /* YRAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRAlbumVC.m; sourceTree = "<group>"; };
+		146909171FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+firstTimeUse.h"; sourceTree = "<group>"; };
+		146909181FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+firstTimeUse.m"; sourceTree = "<group>"; };
+		146909191FC59EF6009DED4F /* PHAssetCollection+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+custom.h"; sourceTree = "<group>"; };
+		1469091A1FC59EF6009DED4F /* PHAssetCollection+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+custom.m"; sourceTree = "<group>"; };
+		1469091B1FC59EF6009DED4F /* PHAsset+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+custom.h"; sourceTree = "<group>"; };
+		1469091C1FC59EF6009DED4F /* PHAsset+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+custom.m"; sourceTree = "<group>"; };
+		146909211FC59F18009DED4F /* PHCategoryDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHCategoryDefine.h; sourceTree = "<group>"; };
+		146909231FC5A1F2009DED4F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		1472108B1FC5915B00104437 /* YRAlbumTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRAlbumTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1472108F1FC5915B00104437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		147210911FC5915B00104437 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +52,14 @@
 		1472109A1FC5915B00104437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1472109D1FC5915B00104437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1472109F1FC5915B00104437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147210A61FC5937C00104437 /* YRAlbumNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRAlbumNavigationController.h; sourceTree = "<group>"; };
+		147210A71FC5937C00104437 /* YRAlbumNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRAlbumNavigationController.m; sourceTree = "<group>"; };
+		147210A91FC593B100104437 /* YRAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRAlbumListViewController.h; sourceTree = "<group>"; };
+		147210AA1FC593B100104437 /* YRAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRAlbumListViewController.m; sourceTree = "<group>"; };
+		147210AC1FC593D200104437 /* YRAlbum_difine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRAlbum_difine.h; sourceTree = "<group>"; };
+		147210AD1FC594E800104437 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		147210B11FC5964A00104437 /* UINavigationController+YRNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+YRNav.h"; sourceTree = "<group>"; };
+		147210B21FC5964A00104437 /* UINavigationController+YRNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+YRNav.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +73,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1469091D1FC59EF6009DED4F /* customPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				146909211FC59F18009DED4F /* PHCategoryDefine.h */,
+				146909171FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.h */,
+				146909181FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.m */,
+				146909191FC59EF6009DED4F /* PHAssetCollection+custom.h */,
+				1469091A1FC59EF6009DED4F /* PHAssetCollection+custom.m */,
+				1469091B1FC59EF6009DED4F /* PHAsset+custom.h */,
+				1469091C1FC59EF6009DED4F /* PHAsset+custom.m */,
+			);
+			name = customPhotos;
+			path = "../../../PhotosKitCategaory-master/PhotoDemo/customPhotos";
+			sourceTree = "<group>";
+		};
+		146909221FC5A1F2009DED4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146909231FC5A1F2009DED4F /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		147210821FC5915B00104437 = {
 			isa = PBXGroup;
 			children = (
 				1472108D1FC5915B00104437 /* YRAlbumTool */,
 				1472108C1FC5915B00104437 /* Products */,
+				146909221FC5A1F2009DED4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +121,10 @@
 				147210941FC5915B00104437 /* ViewController.h */,
 				147210951FC5915B00104437 /* ViewController.m */,
 				147210971FC5915B00104437 /* Main.storyboard */,
+				147210A51FC5934A00104437 /* Class */,
 				1472109A1FC5915B00104437 /* Assets.xcassets */,
 				1472109C1FC5915B00104437 /* LaunchScreen.storyboard */,
+				147210AD1FC594E800104437 /* PrefixHeader.pch */,
 				1472109F1FC5915B00104437 /* Info.plist */,
 				1472108E1FC5915B00104437 /* Supporting Files */,
 			);
@@ -77,6 +137,29 @@
 				1472108F1FC5915B00104437 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147210A51FC5934A00104437 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1469091D1FC59EF6009DED4F /* customPhotos */,
+				147210B11FC5964A00104437 /* UINavigationController+YRNav.h */,
+				147210B21FC5964A00104437 /* UINavigationController+YRNav.m */,
+				147210A61FC5937C00104437 /* YRAlbumNavigationController.h */,
+				147210A71FC5937C00104437 /* YRAlbumNavigationController.m */,
+				146909141FC59DF6009DED4F /* YRAlbumVC.h */,
+				146909151FC59DF6009DED4F /* YRAlbumVC.m */,
+				147210A91FC593B100104437 /* YRAlbumListViewController.h */,
+				147210AA1FC593B100104437 /* YRAlbumListViewController.m */,
+				143BB7D81FC6603600B026D6 /* YRAlbumListCell.h */,
+				143BB7D91FC6603600B026D6 /* YRAlbumListCell.m */,
+				146909111FC598A4009DED4F /* YRPhotoListViewController.h */,
+				146909121FC598A4009DED4F /* YRPhotoListViewController.m */,
+				143BB7DB1FC66F4200B026D6 /* YRPhotoListCell.h */,
+				143BB7DC1FC66F4200B026D6 /* YRPhotoListCell.m */,
+				147210AC1FC593D200104437 /* YRAlbum_difine.h */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +193,8 @@
 				TargetAttributes = {
 					1472108A1FC5915B00104437 = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = UM24Q5JH6X;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -150,9 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146909201FC59EF6009DED4F /* PHAsset+custom.m in Sources */,
+				146909131FC598A4009DED4F /* YRPhotoListViewController.m in Sources */,
+				147210A81FC5937C00104437 /* YRAlbumNavigationController.m in Sources */,
+				1469091E1FC59EF6009DED4F /* PHPhotoLibrary+firstTimeUse.m in Sources */,
+				147210AB1FC593B100104437 /* YRAlbumListViewController.m in Sources */,
+				146909161FC59DF6009DED4F /* YRAlbumVC.m in Sources */,
 				147210961FC5915B00104437 /* ViewController.m in Sources */,
 				147210931FC5915B00104437 /* AppDelegate.m in Sources */,
+				143BB7DA1FC6603600B026D6 /* YRAlbumListCell.m in Sources */,
+				143BB7DD1FC66F4200B026D6 /* YRPhotoListCell.m in Sources */,
+				147210B31FC5964A00104437 /* UINavigationController+YRNav.m in Sources */,
 				147210901FC5915B00104437 /* main.m in Sources */,
+				1469091F1FC59EF6009DED4F /* PHAssetCollection+custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +368,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
+				GCC_PREFIX_HEADER = /Users/yangrui/Desktop/YRAlbumTool/YRAlbumTool/Class/YRAlbum_difine.h;
 				INFOPLIST_FILE = YRAlbumTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = abc.YRAlbumTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN3.0.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "23ee306b-5abd-46f8-b30b-6fe35efa5bed";
+				PROVISIONING_PROFILE_SPECIFIER = lettin.3.0_widget_dev_10.13;
 			};
 			name = Debug;
 		};
@@ -285,10 +384,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
+				GCC_PREFIX_HEADER = /Users/yangrui/Desktop/YRAlbumTool/YRAlbumTool/Class/YRAlbum_difine.h;
 				INFOPLIST_FILE = YRAlbumTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = abc.YRAlbumTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN3.0.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3b4eeab-ff5e-4d63-8d6b-0a09f32b8ab8";
+				PROVISIONING_PROFILE_SPECIFIER = lettin30_widget_hoc_1013;
 			};
 			name = Release;
 		};
@@ -311,6 +416,7 @@
 				147210A41FC5915B00104437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
